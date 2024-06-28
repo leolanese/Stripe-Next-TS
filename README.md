@@ -6,7 +6,11 @@ This is a really simple project that shows the usage of Next.js with TypeScript.
 
 ## Note
 
-> Note on the side, we will need these KEYS from Stripe (dashboad/keys) account
+1)
+The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
+
+2) 
+We will need `KEYS` from Stripe (dashboad/keys) account
 
 ```js
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
@@ -23,6 +27,8 @@ STRIPE_SECRET_KEY=sk_test_...
 
 ## Folder Structure:
 
-pages/: Contains Next.js pages and API routes.
-components/: Includes React components for building the UI.
-utils/: Houses utility functions and configuration files.
+pages/: Contains Next pages and API routes
+components/: Includes React components for building the UI
+utils/: Houses utility functions and configuration files
+
+
