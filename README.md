@@ -1,4 +1,4 @@
-# Stripe Payment Integration + TypeScript Next.js test example
+# Stripe Payment Integration + TypeScript + Next.js test example
 
 ## Stripe-Next-TS
 
