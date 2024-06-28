@@ -84,12 +84,12 @@ const CheckoutForm = () => {
 	return (
 		<Box m="0 auto" py={5} textAlign="center">
 			<Text fontWeight={700} fontSize={25} mb={10} color="#5470e1">
-				Stripe + Next.JS Demo
+				Stripe + Next (Routes API) + TS
 			</Text>
 			<form onSubmit={handleSubmit}>
 				{error ? (
 					<Text fontSize={15} px={[0, 0, "md", "md"]}>
-						SHOP OFFLINE
+						❌ SHOP OFFLINE ❌
 					</Text>
 				) : (
 					<>
