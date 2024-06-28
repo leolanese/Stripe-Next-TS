@@ -1,4 +1,4 @@
-# Stripe + TypeScript Next.js test example
+# Stripe Payment Integration + TypeScript Next.js test example
 
 ## Stripe-Next-TS
 
@@ -20,3 +20,9 @@ STRIPE_SECRET_KEY=sk_test_...
 5425233430109903	04/2026	    Success
 ```
 
+
+## Folder Structure:
+
+pages/: Contains Next.js pages and API routes.
+components/: Includes React components for building the UI.
+utils/: Houses utility functions and configuration files.
