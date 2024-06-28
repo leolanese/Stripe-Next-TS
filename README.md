@@ -6,11 +6,9 @@ This is a really simple project that shows the usage of Next.js with TypeScript.
 
 ## Note
 
-1)
-The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
+1) The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
 
-2) 
-We will need `KEYS` from Stripe (dashboad/keys) account
+2) We will need `KEYS` from Stripe (dashboad/keys) account
 
 ```js
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_...
